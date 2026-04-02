@@ -27,3 +27,12 @@ Analyze factors influencing movie success and ratings to provide actionable insi
 - Analytical reasoning + business storytelling
 
 ## Repository Structure
+movie-industry-analysis/
+├── data/
+│   ├── raw/
+│   └── cleaned/
+├── notebooks/
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_analysis.ipynb
+│   └── 03_visualization.ipynb
+└── README.md
