@@ -1,21 +1,29 @@
 # Movie Industry Data Analysis
 
 ## Objective
-
-To analyze factors that influence movie success and provide actionable insights for stakeholders in the film industry.
-
-## Key Questions
-
-* What factors drive higher revenue in movies?
-* Does a bigger budget guarantee success?
-* Which genres perform best over time?
-* Is there a relationship between runtime and ratings?
-* How has movie performance changed over the years?
+Analyze factors influencing movie success and ratings to provide actionable insights for studios and investors.
 
 ## Dataset
+- Source: Kaggle TMDB / IMDb dataset
+- Rows: 10,000+
+- Columns: budget, revenue, genre, ratings, release year, language
 
-The dataset contains information about movies including budget, revenue, genre, runtime, ratings, and release year.
+## Key Questions & Insights
 
-## Expected Outcome
+### 1. Which genres generate the highest revenue?
+- Action and Adventure dominate total revenue → studios should prioritize these genres.
 
-This project aims to uncover patterns and trends that can help production companies make better investment decisions.
+### 2. Does higher budget lead to higher profit?
+- High budget does not always guarantee higher profit → careful investment decisions outperform simply spending more.
+
+### 3. What factors influence movie ratings?
+- Genre, revenue, and budget have varying influence on ratings.
+- Documentaries and dramas achieve high ratings even with lower budgets.
+- High revenue ≠ high ratings → profitability ≠ audience approval.
+
+## Tools & Techniques
+- Python, Pandas, Matplotlib, Seaborn
+- Data cleaning, aggregation, visualization
+- Analytical reasoning + business storytelling
+
+## Repository Structure
