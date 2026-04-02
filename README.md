@@ -33,6 +33,6 @@ movie-industry-analysis/
 │   └── cleaned/
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
-│   ├── 02_analysis.ipynb
-│   └── 03_visualization.ipynb
+│   ├── 02_analysis.ipynb (with visualization)
+│   
 └── README.md
